@@ -15,7 +15,7 @@ class AdapterShippingDetails(var mContext: Context):RecyclerView.Adapter<Adapter
     var mList: ArrayList<Data> = ArrayList()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        var view = LayoutInflater.from(mContext).inflate(R.layout.activity_address,parent,false)
+        var view = LayoutInflater.from(mContext).inflate(R.layout.shipping_detail_adapter,parent,false)
 
         return  ViewHolder(view)
     }
@@ -41,6 +41,7 @@ class AdapterShippingDetails(var mContext: Context):RecyclerView.Adapter<Adapter
             itemView.text_view_houseNo.text = address.houseNo
             itemView.text_view_streetName.text = address.streetName
             itemView.text_view_city.text = address.city
+
 
         }
     }

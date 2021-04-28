@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.purchaseorder">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PurchaseOrder"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activities.AddressActivity"></activity>
+        <activity android:name=".activities.AddAddressActivity"></activity>
+        <activity android:name=".activities.AddressActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

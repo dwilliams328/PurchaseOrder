@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edit_text_pinCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pin Code" />
+
+    <EditText
+        android:id="@+id/edit_text_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_pinCode"
+        android:hint="City" />
+
+
+    <EditText
+        android:id="@+id/edit_text_streetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_city"
+        android:hint="Street Name" />
+
+    <EditText
+        android:id="@+id/edit_text_houseNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_streetName"
+        android:hint="HouseNo" />
+
+
+    <EditText
+        android:id="@+id/edit_text_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_houseNo"
+        android:hint="type" />
+
+    <EditText
+        android:id="@+id/edit_text_userID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_type"
+        android:hint="User ID" />
+
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_type"
+        android:text="Submit" />
+
+
+</RelativeLayout>
